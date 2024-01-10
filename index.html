@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="gallery">
+      <div class="thumbnail">
+        <img src="https://picsum.photos/200/300" alt="Img" />
+        <img src="https://picsum.photos/200/300" alt="Img" />
+        <img src="https://picsum.photos/200/300" alt="Img" />
+        <img src="https://picsum.photos/200/300" alt="Img" />
+        <img src="https://picsum.photos/200/300" alt="Img" />
+        <img src="https://picsum.photos/200/300" alt="Img" />
+        <img src="https://picsum.photos/200/300" alt="Img" />
+      </div>
+    </div>
+
+    <div class="modal" id="myModal">
+      <span class="close" onclick="closeModal()"></span>
+      <img src="" id="modalImage" class="modal-content" alt="Modal Img" />
+      <div class="caption" id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
