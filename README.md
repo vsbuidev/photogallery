@@ -20,7 +20,7 @@ This project is a simple interactive photo gallery created using HTML5, CSS3, an
 
 ## Demo
 
-To see a live demo of the photo gallery, visit [Demo Link](#).
+To see a live demo of the photo gallery, visit [Laptop](./demo/Laptop.jpeg), [Tablet](./demo/Tablet.jpeg), [Mobile](./demo/Mobile.jpeg).
 
 ## Getting Started
 
